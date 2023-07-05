@@ -34,6 +34,8 @@
 				array('label' => 'Pegawai', 'url' => array('/pegawaiM/index')),
 				array('label' => 'Ruangan', 'url' => array('/ruanganM/index')),
 				array('label' => 'Pendaftaran', 'url' => array('/pendaftaranT/index')),
+				array('label' => 'Pemakai', 'url' => array('/loginpemakaiM/index')),
+				array('label' => 'Transaksi', 'url' => array('/TransaksiObat/index')),
 				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
